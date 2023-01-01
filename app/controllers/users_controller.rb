@@ -25,6 +25,9 @@ else
     render json: { error: 'Invalid username or password' }, status: :unprocessable_entity
 end
     end 
+    def destroy 
+
+    end
   
 
     private 
